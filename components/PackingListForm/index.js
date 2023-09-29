@@ -1,4 +1,4 @@
-export default function AddPackingListItem({ onHandleAddToPackingList }) {
+export default function PackingListForm({ onHandleAddToPackingList }) {
   async function handleSubmit(event) {
     event.preventDefault();
 
